@@ -18,10 +18,10 @@ name = "libarp"
 path = "lib.rs"
 
 [dependencies]
-pnet = {version = "0.34", features=["std"]}
+pnet = { version = "0.35", features = ["std"] }
 num-traits = "0.2"
 num-derive = "0.4"
-maybe-async = {version = "0.2.6", features=[]}
+maybe-async = { version = "0.2.6", features = [] }
 
 [features]
 default = []
